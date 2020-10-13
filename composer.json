@@ -1,0 +1,23 @@
+  
+{
+    "name": "enmanuelar/exception-catcher",
+    "type": "library",
+    "license": "MIT",
+    "description": "ExceptionCatcher provides functions for handling the catching of exceptions and debugging in a simpler way",
+    "keywords": ["exception", "try", "catch", "error", "debug"],
+    "homepage": "https://github.com/enmanuelar",
+    "authors": [
+        {
+            "name": "Enmanuel Almonte", 
+            "email": "ealmonterozon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Enmanuelar\\ExceptionCatcher\\" : "src/"
+        }
+    }
+}
